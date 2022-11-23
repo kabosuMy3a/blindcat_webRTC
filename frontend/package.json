@@ -8,13 +8,15 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
+    "socket.io-client": "^4.5.4",
     "styled-components": "^5.3.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "https": "HTTPS=true SSL_CRT_FILE=cert.pem SSL_KEY_FILE=privkey.pem react-scripts start",
-    "start": "react-scripts start",
+    "https": "REACT_APP_PROFILE=https HTTPS=true SSL_CRT_FILE=cert.pem SSL_KEY_FILE=privkey.pem react-scripts start",
+    "start": "REACT_APP_PROFILE=local react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
