@@ -1,7 +1,7 @@
 import express from "express";
 import https from "https";
 import fs from 'fs';
-import {socketlink} from "server/socketlink.js";
+import {socketlink} from "./socketlink.js";
 
 const app = express();
 

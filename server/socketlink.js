@@ -7,7 +7,7 @@ export const socketlink = (app, server, isHttps) => {
 
   const io = new Server(server, {
     cors: {
-      origin: isHttps ? 'https://blindcat.shop:3000' : 'http://localhost:3000'
+      origin: isHttps ? 'https://blindcat.shop' : 'http://localhost:3000'
     }
   });
 
