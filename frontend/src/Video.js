@@ -32,8 +32,13 @@ function Video() {
 
 
   const getLocalVideos = async () => {
-    const localStream = await navigator.mediaDevices.getUserMedia({audio: true, video: true});
-    localVideoRef.current.srcObject = localStream ;
+    let localStream ;
+    try{
+      localStream = await navigator.mediaDevices.getUserMedia({audio: true, video: true});
+      localVideoRef.current.srcObject = localStream ;
+    } catch (e) {
+      alert('사용자 미디어에 접근할 수 없습니다.');
+    }
 
     const localTracks = localStream.getTracks() ;
     localTracks.forEach((localTrack)=>{
