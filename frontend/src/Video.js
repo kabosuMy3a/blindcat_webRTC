@@ -21,7 +21,7 @@ function Video() {
   const localVideoRef = useRef(null);
   const localDisplayVideoRef = useRef(null);
   const remoteVideoRef = useRef(null);
-  const options = {audio: true, video: true} ;
+  const options = {audio: true, video: {facingMode: {exact: 'user'}}} ;
 
   let {roomId} = useParams() ;
   roomId = roomId ?? 'alpaka-blindcat';
@@ -161,9 +161,9 @@ function Video() {
   return (
     <div>
       <Layout>
-        <span><LocalVideo ref={localVideoRef} muted/></span>
-        <span><RemoteVideo ref={remoteVideoRef} muted/></span>
-        <LocalVideo ref={localDisplayVideoRef}/>
+        <span><LocalVideo playsinline ref={localVideoRef} muted/></span>
+        <span><RemoteVideo playsinline ref={remoteVideoRef} muted/></span>
+        <LocalVideo playsinline ref={localDisplayVideoRef}/>
       </Layout>
     </div>
   ) ;
@@ -179,12 +179,8 @@ const Layout = styled.div`
 
 const LocalVideo = styled.video`
   background-color: teal;
-  width: 360px;
-  height: 250px;
 ` ;
 
 const RemoteVideo = styled.video`
   background-color: salmon;
-  width: 360px;
-  height: 250px;
 ` ;
