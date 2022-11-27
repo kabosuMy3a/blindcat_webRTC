@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "https": "REACT_APP_PROFILE=https react-scripts start",
+    "local": "REACT_APP_PROFILE=local react-scripts start",
     "start": "REACT_APP_PROFILE=https react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

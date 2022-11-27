@@ -1,0 +1,32 @@
+/*
+export default Video ;
+
+const Layout = styled.div`
+               display: flex ;
+flex-direction: row ;
+overflow: auto;
+`;
+
+const LocalVideo = styled.video`
+                   background-color: teal;
+` ;
+
+const RemoteVideo = styled.video`
+                    background-color: salmon;
+` ;
+
+*/
+
+.layout {
+  display: flex;
+  flex-direction: row ;
+  overflow: auto;
+}
+
+.localVideo {
+  background-color: teal;
+}
+
+.remoteVideo {
+  background-color: salmon;
+}
