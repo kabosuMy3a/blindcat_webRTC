@@ -163,6 +163,14 @@ export default function Room({ roomName }: any){
         }
       });
 
+      producerTransportRef.current.updateIceServers({iceServers: [
+    		{
+      			urls: ['turn:turn-test.ml:3478?transport=tcp'],
+      			username: 'hello',
+      			credential: 'world',
+    		},
+  	],});
+
       producerTransportRef.current.on('produce', async (parameters : any ,callback : any, errorback : any) => {
         console.log('produce parameters: ', parameters);
         try {
@@ -207,6 +215,14 @@ export default function Room({ roomName }: any){
       console.log(params);
 
       let consumerTransport = deviceRef.current.createRecvTransport(params);
+
+ 	   consumerTransport.updateIceServers({iceServers: [
+    		{
+      			urls: ['turn:turn-test.ml:3478?transport=tcp'],
+      			username: 'hello',
+      			credential: 'world',
+    		},
+  	],});
 
       consumerTransport.on('connect', async({dtlsParameters} : any, callback : any , errorback : any) => {
         try {

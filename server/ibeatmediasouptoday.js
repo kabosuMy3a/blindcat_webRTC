@@ -19,13 +19,13 @@ const options = {
 };
 
 const httpsServer = https.createServer(options, app);
-httpsServer.listen(8000, () => {
+httpsServer.listen(8443, () => {
   console.log('listening');
 });
 
 const io = new Server(httpsServer, {
   cors: {
-    origin: 'http://localhost:3000'
+    origin: 'https://blindcat.shop'
   }}
 );
 

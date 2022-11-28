@@ -23,7 +23,7 @@ const Video = () => {
   const isProducerRef = useRef<boolean>(false);
 
   useEffect(()=> {
-    const to = 'https://localhost:8000';
+    const to = 'https://blindcat.shop:8443';
     socketRef.current = io(to);
     socketRef.current.on('connection-success', ({socketId, existsProducer}: any) => {
       console.log(socketId, existsProducer);
