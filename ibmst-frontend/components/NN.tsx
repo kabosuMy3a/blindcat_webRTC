@@ -1,35 +1,51 @@
 import styles from 'styles/video.module.scss';
-import {useRef, useEffect} from "react";
+import {useState, useRef, useEffect} from "react";
 import { Device } from 'mediasoup-client' ;
 import io from 'socket.io-client';
+import {useRouter} from "next/router";
 
 
-const Video = () => {
+const NN = () => {
 
   const socketRef = useRef<any>(null);
 
   const paramsRef = useRef<any>(null);
   const localVideoRef = useRef<any>(null);
-  const remoteVideoRef = useRef<any>(null);
+  const remoteVideoRef = useRef<any>({});
 
   const deviceRef = useRef<any>(null);
   const rtpCapabilitiesRef = useRef<any>(null);
   const producerTransportRef = useRef<any>(null);
-  const consumerTransportRef = useRef<any>(null);
+  const consumerTransportRef = useRef<any>([]);
 
   const producerRef = useRef<any>(null);
   const consumerRef = useRef<any>(null);
 
-  const isProducerRef = useRef<boolean>(false);
+  const [remoteVideoList, setRemoteVideoList] = useState<any[]>([]);
 
   useEffect(()=> {
     const to = 'https://localhost:8000';
     socketRef.current = io(to);
-    socketRef.current.on('connection-success', ({socketId, existsProducer}: any) => {
-      console.log(socketId, existsProducer);
-    });
-  },[]);
 
+    socketRef.current.on('connection-success', ({socketId}: any) => {
+      console.log(socketId);
+      getLocalStream();
+    });
+
+    socketRef.current.on('new-producer', ({producerId}: any) => {
+      signalNewConsumerTransport(producerId);
+    });
+
+    socketRef.current.on('producer-closed', ({remoteProducerId} : any)=> {
+      const producerToClose = consumerTransportRef.current.find((transportData : any) => transportData.producerId === remoteProducerId)
+      producerToClose.consumerTransport.close();
+      producerToClose.consumer.close();
+      consumerTransportRef.current = consumerRef.current.filter((transporData : any) => transporData.producerId !== remoteProducerId);
+      setRemoteVideoList(prev => prev.filter((producerId : any) => producerId !== remoteProducerId));
+      delete remoteVideoRef.current.remoteProducerId ;
+    })
+
+  },[]);
 
   //Producer 시작 코드
   const getLocalStream = async () => {
@@ -81,27 +97,18 @@ const Video = () => {
         ...paramsRef.current
       }
       console.log(paramsRef.current);
-      goConnect(true);
+      joinRoom();
 
     } catch (e) {
       alert('웹캠 가져오기 실패');
     }
   }
 
-  //Consumer 시작코드
-  const goConsume = () => {
-    goConnect(false);
-  }
-
-  const goConnect = (isProducer : any) => {
-    isProducerRef.current = isProducer ;
-    deviceRef.current === null ? getRtpCapabilities() : goCreateTransport() ;
-  }
-
-  const getRtpCapabilities = () => {
-    socketRef.current.emit('createRoom',({rtpCapabilities} : any) => {
-      console.dir(`Router RTP Capabilities: ${JSON.stringify(rtpCapabilities)}`);
-      rtpCapabilitiesRef.current = rtpCapabilities ;
+  const joinRoom = () => {
+    console.log(socketRef.current, roomName);
+    socketRef.current.emit('joinRoom', {roomName}, (data : any) => {
+      console.log(`Router RTP Capabilities: ${data.rtpCapabilities}`);
+      rtpCapabilitiesRef.current = data.rtpCapabilities ;
       createDevice();
     });
   }
@@ -114,7 +121,7 @@ const Video = () => {
       });
 
       console.log(deviceRef.current.rtpCapabilities);
-      goCreateTransport();
+      createSendTransport();
 
     } catch(error){
       console.log(`디바이스 만들 때 에러: ${error}`);
@@ -124,13 +131,15 @@ const Video = () => {
     }
   }
 
-  const goCreateTransport = () => {
-    console.log('isProducer? ', isProducerRef.current);
-    isProducerRef.current ? createSendTransport() : createRecvTransport() ;
-  };
+  const getProducers = () => {
+    socketRef.current.emit('getProducers', (producerIds: any[])  => {
+      console.log('producer ids');
+      producerIds.forEach(signalNewConsumerTransport)
+    });
+  }
 
   const createSendTransport = () => {
-    socketRef.current.emit('createWebRtcTransport', {sender: true}, ({params} : any) => {
+    socketRef.current.emit('createWebRtcTransport', {consumer: false}, ({params} : any) => {
       if(params.error){
         console.log(params.error);
         return;
@@ -160,8 +169,13 @@ const Video = () => {
             kind: parameters.kind,
             rtpParameters: parameters.rtpParameters,
             appData: parameters.appData
-          }, ({id} : any)=> {
+          }, ({id, producersExist} : any)=> {
             callback(id);
+
+            if(producersExist){
+              //join room
+              getProducers();
+            }
           });
 
         } catch (error){
@@ -183,8 +197,8 @@ const Video = () => {
     });
   }
 
-  const createRecvTransport = async () => {
-    await socketRef.current.emit('createWebRtcTransport', {sender: false}, ({params} : any ) =>{
+  const signalNewConsumerTransport = async (remoteProducerId : any) => {
+    await socketRef.current.emit('createWebRtcTransport', {consumer: true}, ({params} : any ) =>{
       if(params.error){
         console.log(params.error);
         return ;
@@ -196,7 +210,7 @@ const Video = () => {
       consumerTransportRef.current.on('connect', async({dtlsParameters} : any, callback : any , errorback : any) => {
         try {
           await socketRef.current.emit('transport-recv-connect', {
-            //transportId: consumerTransportRef.current.id,
+            transportId: consumerTransportRef.current.id,
             dtlsParameters,
           });
           callback();
@@ -205,14 +219,16 @@ const Video = () => {
         }
       });
 
-      connectRecvTransport();
+      connectRecvTransport(consumerTransportRef.current, remoteProducerId, params.id);
 
     });
   }
 
-  const connectRecvTransport = async () => {
+  const connectRecvTransport = async (consumerTransports : any, remoteProducerId : any, serverConsumerTransportId : any)  => {
     await socketRef.current.emit('consume', {
       rtpCapabilities: deviceRef.current.rtpCapabilities,
+      remoteProducerId,
+      serverConsumerTransportId,
     }, async ({params} : any) => {
       if(params.error){
         console.log('Cannot consume');
@@ -221,53 +237,66 @@ const Video = () => {
 
       console.log(params);
 
-      consumerRef.current = await consumerTransportRef.current.consume({
+      const consumer = await consumerTransportRef.current.consume({
         id: params.id,
         producerId: params.producerId,
         kind: params.kind,
         rtpParameters: params.rtpParameters
       });
 
+      //다시 체크
+      consumerTransports = [
+        ...consumerTransports,
+        {
+          consumerTransport: consumerTransportRef.current,
+          serverConsumerTransportId: params.id,
+          producerId: remoteProducerId,
+          consumer,
+        }
+      ]
+
+      setRemoteVideoList((prev: any[]) => [...prev, remoteProducerId]);
+
       const { track } = consumerRef.current;
-      remoteVideoRef.current.srcObject = new MediaStream([track]);
-      socketRef.current.emit('consumer-resume');
+      remoteVideoRef.current[remoteProducerId].srcObject = new MediaStream([track]);
+      socketRef.current.emit('consumer-resume',{serverConsumerId: params.serverConsumerId });
     });
   }
 
   return (
-    <>
-      <table>
+    <div className={styles.layout}>
+      <table className={styles.mainTable}>
         <tbody>
           <tr>
-            <td>
-              <div>
-                <video ref={localVideoRef} muted autoPlay className={styles.localVideo}  ></video>
-              </div>
+            <td className={styles.localColumn}>
+              <video ref={localVideoRef} muted autoPlay className={styles.localVideo}/>
             </td>
-            <td>
-              <div>
-                <video ref={remoteVideoRef} autoPlay className={styles.remoteVideo} ></video>
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <div className={styles.sharedBtns}>
-                <button onClick={getLocalStream}> Publish </button>
-              </div>
-            </td>
-            <td>
-              <div className={styles.sharedBtns}>
-                <button onClick={goConsume}> Consume </button>
+            <td className={styles.remoteColumn}>
+              <div className={styles.videoContainer}>
+                {remoteVideoList?.map((remoteProducerId) => {
+                  return (
+                    <video key={remoteProducerId} autoPlay
+                           ref={(element) => remoteVideoRef.current.remoteProducerId = element}
+                    />
+                  );
+                })}
               </div>
             </td>
           </tr>
         </tbody>
       </table>
-    </>
-
+      <table>
+        <tbody>
+          <tr>
+            <td>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   ) ;
-
 }
 
-export { Video }
+
+export { NN }
+

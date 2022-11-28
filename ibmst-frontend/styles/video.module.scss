@@ -1,32 +1,24 @@
-/*
-export default Video ;
-
-const Layout = styled.div`
-               display: flex ;
-flex-direction: row ;
-overflow: auto;
-`;
-
-const LocalVideo = styled.video`
-                   background-color: teal;
-` ;
-
-const RemoteVideo = styled.video`
-                    background-color: salmon;
-` ;
-
-*/
-
-.layout {
-  display: flex;
-  flex-direction: row ;
-  overflow: auto;
-}
-
 .localVideo {
   background-color: teal;
+  margin: 2px 0;
 }
 
 .remoteVideo {
   background-color: salmon;
+  margin: 2px 0 ;
+}
+
+.tr {
+  vertical-align: top;
+}
+
+.sharedBtns {
+  padding: 5px;
+  background-color: papayawhip;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin: 2px ;
 }
