@@ -405,7 +405,6 @@ export default function Home({ roomId }: any) {
 export const getServerSideProps: GetServerSideProps = async (context) => {
   //API request
   const roomId = context.query.id;
-
   return {
     props: {
       roomId,
