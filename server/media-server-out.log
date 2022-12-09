@@ -1,0 +1,1019 @@
+listening
+worker pid 10025
+socket id: " + L6CTVT3ySgw4-7AkAAAB, 기존 producer 수 0
+just joined, id 578ea569-3d5a-4f49-9f4a-c611c7e9d953 13, L6CTVT3ySgw4-7AkAAAB
+just joined, id f420d751-f65e-4435-8e09-2e5374656b28 13, L6CTVT3ySgw4-7AkAAAB
+socket id: " + zKRgvO7SGHhelYIBAAAD, 기존 producer 수 NaN
+just joined, id 9841a019-93ea-4906-8435-fcbb2a75183f 13, zKRgvO7SGHhelYIBAAAD
+just joined, id ab54ae02-710a-4ca2-b2ea-0e41af3be709 13, zKRgvO7SGHhelYIBAAAD
+{
+  id: 'd28e6cb3-6142-4cd9-8733-81fae7780f1c',
+  producerId: '9841a019-93ea-4906-8435-fcbb2a75183f',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'xw4DyikafoAPOntx', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'd28e6cb3-6142-4cd9-8733-81fae7780f1c'
+}
+{
+  id: '0065db42-79c8-4c68-bb24-d9338cdbdd18',
+  producerId: '578ea569-3d5a-4f49-9f4a-c611c7e9d953',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: '3Xs6Y0enyqV2Pk4u', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '0065db42-79c8-4c68-bb24-d9338cdbdd18'
+}
+{
+  id: 'd6d6c681-b960-4484-843f-368ececd321d',
+  producerId: 'f420d751-f65e-4435-8e09-2e5374656b28',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: '3Xs6Y0enyqV2Pk4u', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'd6d6c681-b960-4484-843f-368ececd321d'
+}
+consumer resume
+{
+  id: 'c052e442-b204-4e6f-8750-a54c14e6e2ae',
+  producerId: 'ab54ae02-710a-4ca2-b2ea-0e41af3be709',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'xw4DyikafoAPOntx', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'c052e442-b204-4e6f-8750-a54c14e6e2ae'
+}
+consumer resume
+consumer resume
+consumer resume
+listening
+worker pid 10799
+socket id: " + 2dxgQBpAaib0VJTAAAAB, 기존 producer 수 0
+just joined, id 7abefd5a-4cd2-4930-bd96-4a422298b64c 13, 2dxgQBpAaib0VJTAAAAB
+just joined, id 57ef0eeb-01ae-4564-a595-5c63212dbc7f 13, 2dxgQBpAaib0VJTAAAAB
+peer disconnected
+socket id: " + yNTtnhO9AFbNJQ55AAAD, 기존 producer 수 0
+just joined, id 3b7f764d-d45d-4f22-b0e2-dc400ce7abe5 13, yNTtnhO9AFbNJQ55AAAD
+just joined, id 592ee771-360f-4502-ad8c-48393bb2ebcd 13, yNTtnhO9AFbNJQ55AAAD
+peer disconnected
+socket id: " + JRZTdYgrBR-bG_wAAAAF, 기존 producer 수 0
+just joined, id 27ab899f-38c5-4196-a146-8dd29539eb30 1, JRZTdYgrBR-bG_wAAAAF
+just joined, id f269b258-c99b-4950-99f1-d6a060e8dc85 1, JRZTdYgrBR-bG_wAAAAF
+socket id: " + p3L1ySw2kAFBgfUQAAAH, 기존 producer 수 1
+just joined, id aec037d4-8920-49b9-83b1-d0230cc02f64 1, p3L1ySw2kAFBgfUQAAAH
+just joined, id 6552dbe0-b10e-45fd-8e71-5ffdcd5e450e 1, p3L1ySw2kAFBgfUQAAAH
+{
+  id: '4a0a9ff4-050c-42af-b9be-176327c413a9',
+  producerId: 'aec037d4-8920-49b9-83b1-d0230cc02f64',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'EImVQyKU4p7c9nXG', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '4a0a9ff4-050c-42af-b9be-176327c413a9'
+}
+{
+  id: 'ec8dd76c-8ae2-4c0e-a73d-015d480564ae',
+  producerId: '27ab899f-38c5-4196-a146-8dd29539eb30',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'nDkTOree0HrkYRYz', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'ec8dd76c-8ae2-4c0e-a73d-015d480564ae'
+}
+{
+  id: '154ad74c-407e-4d8b-bd31-c35fd92cfa7d',
+  producerId: 'f269b258-c99b-4950-99f1-d6a060e8dc85',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'nDkTOree0HrkYRYz', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '154ad74c-407e-4d8b-bd31-c35fd92cfa7d'
+}
+consumer resume
+{
+  id: 'a79ca71c-c55f-4f07-8623-99bf9a957097',
+  producerId: '6552dbe0-b10e-45fd-8e71-5ffdcd5e450e',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'EImVQyKU4p7c9nXG', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'a79ca71c-c55f-4f07-8623-99bf9a957097'
+}
+consumer resume
+consumer resume
+consumer resume
+socket id: " + B-45t_BMSo4J1IbeAAAJ, 기존 producer 수 2
+just joined, id 893b55d5-7b34-4ce4-9e4a-d8162ef5397c 14, B-45t_BMSo4J1IbeAAAJ
+just joined, id c77c65f6-a66f-4b64-920d-ad2bac28d4f7 14, B-45t_BMSo4J1IbeAAAJ
+socket id: " + NfgieAmv-1H-A_1cAAAL, 기존 producer 수 3
+just joined, id 2f1391f7-29a6-43aa-84e4-1ab1ed48a9e5 14, NfgieAmv-1H-A_1cAAAL
+{
+  id: '4e7a5424-ebf7-491b-95d7-82714268b64e',
+  producerId: '2f1391f7-29a6-43aa-84e4-1ab1ed48a9e5',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'GqxLxnH9ypS3oqrt', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '4e7a5424-ebf7-491b-95d7-82714268b64e'
+}
+{
+  id: '504996b3-fc38-46eb-8070-650bf27648ac',
+  producerId: '893b55d5-7b34-4ce4-9e4a-d8162ef5397c',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'ktY0OWElI6RgsBPA', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '504996b3-fc38-46eb-8070-650bf27648ac'
+}
+just joined, id 8fd0f849-631c-4917-89eb-310796963b9a 14, NfgieAmv-1H-A_1cAAAL
+{
+  id: 'd4de37e2-e1b3-4d84-bc1c-ae8f9e84390e',
+  producerId: 'c77c65f6-a66f-4b64-920d-ad2bac28d4f7',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'ktY0OWElI6RgsBPA', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'd4de37e2-e1b3-4d84-bc1c-ae8f9e84390e'
+}
+consumer resume
+consumer resume
+{
+  id: '7cf90b36-1abf-4fe9-9979-1f677e698cbb',
+  producerId: '8fd0f849-631c-4917-89eb-310796963b9a',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'GqxLxnH9ypS3oqrt', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '7cf90b36-1abf-4fe9-9979-1f677e698cbb'
+}
+consumer resume
+consumer resume
+socket id: " + Ze8IhTFebEfN-hq6AAAN, 기존 producer 수 4
+just joined, id cd738f9c-8acb-46f9-995f-4d0f78fbe29f 1, Ze8IhTFebEfN-hq6AAAN
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+just joined, id 3fac2d7d-77b5-4e50-8426-4f595cc43c89 1, Ze8IhTFebEfN-hq6AAAN
+{
+  id: '7e7c0e35-d9c4-4da7-94f4-c25148d62d9c',
+  producerId: 'cd738f9c-8acb-46f9-995f-4d0f78fbe29f',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'p6LzmIxnvmgUOzUu', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '7e7c0e35-d9c4-4da7-94f4-c25148d62d9c'
+}
+{
+  id: 'e9a06c6e-3d3a-4040-a311-ac1c08ec9757',
+  producerId: 'cd738f9c-8acb-46f9-995f-4d0f78fbe29f',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'p6LzmIxnvmgUOzUu', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'e9a06c6e-3d3a-4040-a311-ac1c08ec9757'
+}
+consumer resume
+{
+  id: '67622886-7b14-45e8-a4bc-4d607ebf0d66',
+  producerId: '27ab899f-38c5-4196-a146-8dd29539eb30',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'nDkTOree0HrkYRYz', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '67622886-7b14-45e8-a4bc-4d607ebf0d66'
+}
+consumer resume
+{
+  id: 'ec8078c9-1ca7-4e46-af84-2ed622c5594a',
+  producerId: 'f269b258-c99b-4950-99f1-d6a060e8dc85',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'nDkTOree0HrkYRYz', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'ec8078c9-1ca7-4e46-af84-2ed622c5594a'
+}
+{
+  id: 'f2cc1dda-e424-46d9-88be-7ee74d5b357b',
+  producerId: 'aec037d4-8920-49b9-83b1-d0230cc02f64',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'EImVQyKU4p7c9nXG', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'f2cc1dda-e424-46d9-88be-7ee74d5b357b'
+}
+{
+  id: 'b6e70986-dae2-444c-bbb7-4d697708bfa3',
+  producerId: '6552dbe0-b10e-45fd-8e71-5ffdcd5e450e',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'EImVQyKU4p7c9nXG', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'b6e70986-dae2-444c-bbb7-4d697708bfa3'
+}
+{
+  id: '8bc31a66-97a6-4363-8350-6749aa9e1c3e',
+  producerId: '3fac2d7d-77b5-4e50-8426-4f595cc43c89',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'p6LzmIxnvmgUOzUu', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '8bc31a66-97a6-4363-8350-6749aa9e1c3e'
+}
+{
+  id: '8a14dc97-2470-4849-80a8-fd5dc7452402',
+  producerId: '3fac2d7d-77b5-4e50-8426-4f595cc43c89',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'p6LzmIxnvmgUOzUu', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '8a14dc97-2470-4849-80a8-fd5dc7452402'
+}
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+socket id: " + uIf71aSn4dQB2pTuAAAP, 기존 producer 수 0
+just joined, id 10c0273f-3efe-4b6a-b920-91a77a5b7a1f 15, uIf71aSn4dQB2pTuAAAP
+just joined, id 6069570b-a03c-45a7-8543-c7d1e60e546f 15, uIf71aSn4dQB2pTuAAAP
+socket id: " + 88TxP8YaX9-kzLJmAAAR, 기존 producer 수 1
+just joined, id a7c04fc5-c2d6-43cf-b4a3-4ceb1a34eb33 15, 88TxP8YaX9-kzLJmAAAR
+just joined, id af006ad0-bba4-4886-8d72-ed69263b516e 15, 88TxP8YaX9-kzLJmAAAR
+{
+  id: '2135e613-c1ea-4e90-8d88-035b80528e59',
+  producerId: 'a7c04fc5-c2d6-43cf-b4a3-4ceb1a34eb33',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'zb101AcNYOKSQpu4', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '2135e613-c1ea-4e90-8d88-035b80528e59'
+}
+{
+  id: '97e06952-e9e2-441b-a7e8-e6efc7832261',
+  producerId: '10c0273f-3efe-4b6a-b920-91a77a5b7a1f',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: '8j4UlUPOHIU82Mv2', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '97e06952-e9e2-441b-a7e8-e6efc7832261'
+}
+{
+  id: 'd49cabcb-49b7-4c72-854e-4c05254d82cb',
+  producerId: '6069570b-a03c-45a7-8543-c7d1e60e546f',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: '8j4UlUPOHIU82Mv2', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'd49cabcb-49b7-4c72-854e-4c05254d82cb'
+}
+{
+  id: '83bd75bd-c8e3-4ae4-b57c-33da688087a0',
+  producerId: 'af006ad0-bba4-4886-8d72-ed69263b516e',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'zb101AcNYOKSQpu4', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '83bd75bd-c8e3-4ae4-b57c-33da688087a0'
+}
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+socket id: " + ltFzns6s4BGjpKCXAAAT, 기존 producer 수 1
+just joined, id 1597110d-51e8-4c6b-8555-9ede0e8579d2 15, ltFzns6s4BGjpKCXAAAT
+just joined, id 7db6a63a-eeef-4650-8bf6-fe8eda93443d 15, ltFzns6s4BGjpKCXAAAT
+{
+  id: '66394ad0-ea26-48dd-8349-fd2e9bc4abfa',
+  producerId: '1597110d-51e8-4c6b-8555-9ede0e8579d2',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'xZkIcOwZYb1k3zKP', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '66394ad0-ea26-48dd-8349-fd2e9bc4abfa'
+}
+{
+  id: 'f7277868-6d33-4c55-8cfb-9456a3afed56',
+  producerId: '7db6a63a-eeef-4650-8bf6-fe8eda93443d',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'xZkIcOwZYb1k3zKP', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'f7277868-6d33-4c55-8cfb-9456a3afed56'
+}
+consumer resume
+{
+  id: 'e5a78515-2365-4735-8482-7ae13d0a54ed',
+  producerId: 'a7c04fc5-c2d6-43cf-b4a3-4ceb1a34eb33',
+  kind: 'audio',
+  rtpParameters: {
+    codecs: [ [Object] ],
+    headerExtensions: [ [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'zb101AcNYOKSQpu4', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: 'e5a78515-2365-4735-8482-7ae13d0a54ed'
+}
+{
+  id: '16974446-106f-4f52-a88b-5ea397dec324',
+  producerId: 'af006ad0-bba4-4886-8d72-ed69263b516e',
+  kind: 'video',
+  rtpParameters: {
+    codecs: [ [Object], [Object] ],
+    headerExtensions: [ [Object], [Object], [Object], [Object], [Object] ],
+    encodings: [ [Object] ],
+    rtcp: { cname: 'zb101AcNYOKSQpu4', reducedSize: true, mux: true },
+    mid: '0'
+  },
+  serverConsumerId: '16974446-106f-4f52-a88b-5ea397dec324'
+}
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+socket id: " + uvqZIkRVcSTQinS3AAAV, 기존 producer 수 0
+just joined, id 4132588e-17d7-475d-b3d8-dc14c1a01364 15, uvqZIkRVcSTQinS3AAAV
+just joined, id 2eb6c467-f338-4ac7-ad43-b02020100749 15, uvqZIkRVcSTQinS3AAAV
+peer disconnected
+socket id: " + koV1RgUewQhghXAmAAAX, 기존 producer 수 0
+just joined, id ab43c41b-d176-4f02-a5d4-1e05682b9fd7 24, koV1RgUewQhghXAmAAAX
+just joined, id 1020ef90-36d0-4e9b-912c-1cae27150e90 24, koV1RgUewQhghXAmAAAX
+socket id: " + Dl-64hkkeB0yEbuHAAAZ, 기존 producer 수 1
+socket id: " + HHPHpW8dkZqa5Pc3AAAb, 기존 producer 수 1
+just joined, id c267cfd4-58fa-4cad-b95f-27ee975269ed 28, HHPHpW8dkZqa5Pc3AAAb
+just joined, id c1e6dfe2-8b45-4721-8203-afdc50e39ed9 28, HHPHpW8dkZqa5Pc3AAAb
+peer disconnected
+listening
+worker pid 11269
+socket id: " + y-F3vcBRxL05FDdzAAAB, 기존 producer 수 0
+socket id: " + kOA5Zk_hKD27rUStAAAD, 기존 producer 수 0
+just joined, id de593515-8585-4d61-b52b-e7b0bb27a89b 24, y-F3vcBRxL05FDdzAAAB
+just joined, id 64c1b39b-53d9-44d2-aa53-fca01ef8929c 24, y-F3vcBRxL05FDdzAAAB
+just joined, id ff13b2cf-7f73-4ecb-b6eb-c49559c8093e 28, kOA5Zk_hKD27rUStAAAD
+just joined, id 176266bd-2570-482a-9496-a8ff81c0a2dc 28, kOA5Zk_hKD27rUStAAAD
+socket id: " + UvSeEdfNjOPUcMRnAAAF, 기존 producer 수 2
+socket id: " + pwXpWhIgh6zBuLUdAAAH, 기존 producer 수 2
+socket id: " + Nyl7UBNS-5NP4Y3wAAAJ, 기존 producer 수 2
+peer disconnected
+just joined, id f55c6bed-f033-416d-a7e2-70305886eab4 33, UvSeEdfNjOPUcMRnAAAF
+just joined, id ddf7f696-af13-44a6-976c-690d1e10793e 33, UvSeEdfNjOPUcMRnAAAF
+peer disconnected
+listening
+worker pid 11293
+socket id: " + C-hD1K7W71stZ8ltAAAB, 기존 producer 수 0
+socket id: " + bCZwmpjNB9kE6EIRAAAD, 기존 producer 수 0
+just joined, id 4d691b30-d1b8-4202-9ce0-70086c22c900 33, bCZwmpjNB9kE6EIRAAAD
+just joined, id b6902511-89c1-4ddc-ae18-e2555f1150e1 33, bCZwmpjNB9kE6EIRAAAD
+socket id: " + 8sKR_gfI-SlmG0cDAAAF, 기존 producer 수 1
+socket id: " + HiVQ0Y4o8e4D_U7AAAAH, 기존 producer 수 1
+just joined, id 7d9e9a37-f3f6-4c2d-aa00-bd3491d82b3e 24, HiVQ0Y4o8e4D_U7AAAAH
+just joined, id 4eaaebc3-5aec-41d3-891c-dd1a9fc80ea1 24, HiVQ0Y4o8e4D_U7AAAAH
+just joined, id b7936119-926a-488f-b0c0-c217a12efb75 24, 8sKR_gfI-SlmG0cDAAAF
+consumer resume
+consumer resume
+consumer resume
+socket id: " + gAh-dhgbGXKBmHHVAAAJ, 기존 producer 수 2.5
+socket id: " + ypJzIKNdm2GGLQN5AAAL, 기존 producer 수 2.5
+just joined, id bc6b8da1-8114-47cb-8866-527103c02c97 33, ypJzIKNdm2GGLQN5AAAL
+just joined, id b4c6375d-9529-4682-b0af-224ea754ac7b 33, ypJzIKNdm2GGLQN5AAAL
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + j2whqyaiiT-NIMAdAAAN, 기존 producer 수 3.5
+socket id: " + wtKhm1rKBoRD8zplAAAP, 기존 producer 수 3.5
+socket id: " + RVRZe2e454GvONx5AAAR, 기존 producer 수 3.5
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+just joined, id fa9873b7-249a-4da6-b190-07f034691412 24, j2whqyaiiT-NIMAdAAAN
+just joined, id 5cad9bc7-b2e7-447a-a80a-d23d1307c4cf 24, j2whqyaiiT-NIMAdAAAN
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + 9o9MRCdbk8nBPdm1AAAT, 기존 producer 수 3.5
+just joined, id 2e4a57c7-9c9e-4dd9-89d2-df95150a21e6 28, 9o9MRCdbk8nBPdm1AAAT
+just joined, id 049b3640-84b3-49c9-93fa-7145af9b5558 28, 9o9MRCdbk8nBPdm1AAAT
+socket id: " + oXFQ3eJ1nQAiZSnpAAAV, 기존 producer 수 4.5
+just joined, id c7e6bb94-f35f-4a6c-ba4b-3a1ca6e06f5c 28, oXFQ3eJ1nQAiZSnpAAAV
+just joined, id 2b82d156-f409-4b56-851f-c3d69b9a7042 28, oXFQ3eJ1nQAiZSnpAAAV
+consumer resume
+consumer resume
+socket id: " + GwIPYWeuJHj3-3RaAAAX, 기존 producer 수 5.5
+peer disconnected
+listening
+worker pid 11311
+socket id: " + Kr9QdTve5AxIHZ07AAAB, 기존 producer 수 0
+socket id: " + 5JiM3ah9S2qobui1AAAE, 기존 producer 수 0
+socket id: " + nvNnZoFM_QCTiaa8AAAF, 기존 producer 수 0
+socket id: " + 41Hqs-OzKHPpIMV7AAAH, 기존 producer 수 0
+just joined, id 392f9028-f138-4fed-9876-76e4d01fc0ca 33, Kr9QdTve5AxIHZ07AAAB
+just joined, id 52bf5d51-9959-4c0f-a2d7-d67faf482852 24, 5JiM3ah9S2qobui1AAAE
+just joined, id c44f25a7-4b26-402b-a81b-3da16135b75a 33, Kr9QdTve5AxIHZ07AAAB
+just joined, id e305946f-b384-45e9-b153-e02f27f7e601 24, 5JiM3ah9S2qobui1AAAE
+socket id: " + lLM2syWcL2PjUNicAAAK, 기존 producer 수 2
+socket id: " + 9eRU6eYjiX-1UxFHAAAL, 기존 producer 수 2
+just joined, id 583ec387-297d-42d9-a4c1-4ce2f6ba8135 24, 9eRU6eYjiX-1UxFHAAAL
+just joined, id 08cee8eb-b3c3-4fa6-9c9e-e988a2c4685f 24, 9eRU6eYjiX-1UxFHAAAL
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + dn1Mlkuo2fT65lSBAAAN, 기존 producer 수 3
+socket id: " + y7X6RUges4SBnBxrAAAP, 기존 producer 수 3
+just joined, id c38a6b2c-71d0-44e6-bdb9-d7dc7ece8621 24, dn1Mlkuo2fT65lSBAAAN
+just joined, id d015235f-a932-4cb7-beed-aa646827915d 24, dn1Mlkuo2fT65lSBAAAN
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + ASe1GZXX8PlCXmmCAAAR, 기존 producer 수 4
+socket id: " + 7i59rGiBdbsTvHQ6AAAU, 기존 producer 수 4
+socket id: " + CsPzSi6A1_aUFOFHAAAV, 기존 producer 수 4
+just joined, id a8fad388-c512-49ae-ba51-8e7627191187 22, lLM2syWcL2PjUNicAAAK
+just joined, id f17f232d-2ea9-419b-a9ca-729159e83b44 28, CsPzSi6A1_aUFOFHAAAV
+just joined, id bdf69b25-5981-445b-8cfa-176521e3fbee 28, CsPzSi6A1_aUFOFHAAAV
+socket id: " + og7ohPZe1zWthrkPAAAX, 기존 producer 수 5.5
+peer disconnected
+socket id: " + -CBWOdG1kBmBqWhuAAAZ, 기존 producer 수 4.5
+peer disconnected
+listening
+worker pid 11329
+socket id: " + PUbA_luXcjC1xdMNAAAB, 기존 producer 수 0
+socket id: " + jDXl8x5nGfYgXz3PAAAD, 기존 producer 수 0
+just joined, id 360f1d00-45b5-4a73-9b29-04082bb3e708 24, PUbA_luXcjC1xdMNAAAB
+just joined, id c5bc6049-7cfb-4862-88b8-72a67920113c 24, PUbA_luXcjC1xdMNAAAB
+socket id: " + V0-0qgvrS3bzTz8zAAAG, 기존 producer 수 1
+socket id: " + 3I8lFCAscwN53_UvAAAH, 기존 producer 수 1
+just joined, id c42768da-1506-420d-aecf-9eab6362b08e 22, jDXl8x5nGfYgXz3PAAAD
+just joined, id 159d6a31-524e-48b1-a3ad-f38c3b81c908 22, jDXl8x5nGfYgXz3PAAAD
+socket id: " + Fmr7DHMbyiHCUk4RAAAM, 기존 producer 수 2
+socket id: " + ztpIJiRiZ2U-kM3SAAAN, 기존 producer 수 2
+socket id: " + UFwIkDm_-HAyL23XAAAO, 기존 producer 수 2
+just joined, id 1650329c-f700-4d03-a6e7-b4d8a7dfe554 24, ztpIJiRiZ2U-kM3SAAAN
+just joined, id 4915d679-33f4-4fc0-96df-8c58584b63c5 24, Fmr7DHMbyiHCUk4RAAAM
+just joined, id 8e9f820f-711e-48cf-9d26-522ae70a023e 24, ztpIJiRiZ2U-kM3SAAAN
+just joined, id bb66954a-d14a-4754-9542-7d3a79bfd9e7 24, Fmr7DHMbyiHCUk4RAAAM
+consumer resume
+consumer resume
+socket id: " + AvJA7-_whl7mSfgvAAAQ, 기존 producer 수 4
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+just joined, id e675c963-0089-4e4e-b59f-f8e23a5e1194 25, AvJA7-_whl7mSfgvAAAQ
+just joined, id ddb38e29-4ce1-42b3-b850-0b8defcfd81b 25, AvJA7-_whl7mSfgvAAAQ
+socket id: " + SLB3-TgUgM1bNIMeAAAS, 기존 producer 수 5
+just joined, id 9378bad7-b97c-4aaf-914e-835af724ceed 33, SLB3-TgUgM1bNIMeAAAS
+just joined, id f8473717-ea44-4eda-bfed-8aadd0a36ee1 33, SLB3-TgUgM1bNIMeAAAS
+socket id: " + iJvt7xN01tpai-mMAAAU, 기존 producer 수 6
+just joined, id e631a48e-5c03-4e76-a2b0-1ec84c0de866 25, iJvt7xN01tpai-mMAAAU
+consumer resume
+just joined, id 89b9d733-034a-4bc5-9c8c-f770cf4a11bb 25, iJvt7xN01tpai-mMAAAU
+consumer resume
+consumer resume
+consumer resume
+socket id: " + dq87e7WUKpj_x6PXAAAW, 기존 producer 수 7
+socket id: " + iNm3x7c9wvxl208OAAAY, 기존 producer 수 7
+just joined, id c9c0e65b-d6ee-4c10-86cd-12e4f0dc340f 33, iNm3x7c9wvxl208OAAAY
+just joined, id ca914e03-cdba-4aac-b570-88488748ecd0 33, iNm3x7c9wvxl208OAAAY
+consumer resume
+consumer resume
+peer disconnected
+peer disconnected
+socket id: " + 1soVuktDB4p08btKAAAa, 기존 producer 수 6
+socket id: " + nbbgpnR3_-6eR5u1AAAc, 기존 producer 수 6
+just joined, id c877ced8-56c7-42c8-b703-ccec39a80f0a 22, nbbgpnR3_-6eR5u1AAAc
+just joined, id a889c774-9469-4030-880d-76d078917df2 22, nbbgpnR3_-6eR5u1AAAc
+consumer resume
+consumer resume
+peer disconnected
+listening
+worker pid 11354
+socket id: " + FSysAtx0yf3mvwcpAAAB, 기존 producer 수 0
+socket id: " + MBUORxN9reWFp417AAAE, 기존 producer 수 0
+socket id: " + 6ZnjvoRygLLvGo1FAAAG, 기존 producer 수 0
+socket id: " + zK8VY-GkzIhXSlSPAAAH, 기존 producer 수 0
+socket id: " + gyz89L_xd_yuiEMuAAAJ, 기존 producer 수 0
+socket id: " + b60mBG_AFiNgrW1kAAAM, 기존 producer 수 0
+socket id: " + qxtxtBcOkwIe0qf9AAAO, 기존 producer 수 0
+socket id: " + bKuAyrBkVtvFoqkgAAAP, 기존 producer 수 0
+just joined, id 30a736a6-af7e-4c58-a64a-c63e9c8d6d32 25, MBUORxN9reWFp417AAAE
+just joined, id ca01b80f-38b7-4a11-be4b-b692521f77a6 25, MBUORxN9reWFp417AAAE
+just joined, id e0ab6424-de6d-44de-85e8-4da8798b8302 24, qxtxtBcOkwIe0qf9AAAO
+socket id: " + iLVJOvd4QdEGGbJvAAAS, 기존 producer 수 1.5
+socket id: " + J6HblmvrELVWlsXjAAAT, 기존 producer 수 1.5
+just joined, id b7b85984-e70a-449b-b7e4-4a02cbd0d7b7 24, qxtxtBcOkwIe0qf9AAAO
+just joined, id 45fb9337-e2a5-41de-a934-0ec05b3ddaa6 22, bKuAyrBkVtvFoqkgAAAP
+socket id: " + hv6fFjpzDGH3EZmTAAAV, 기존 producer 수 2.5
+just joined, id 1058f21a-19d2-4ffa-a108-109abff675e5 22, bKuAyrBkVtvFoqkgAAAP
+just joined, id 1626c40c-6d46-4cb7-bc85-2c8dc6acd426 24, b60mBG_AFiNgrW1kAAAM
+just joined, id 04978cc1-6200-4b6d-bd6f-8d60cc196436 24, b60mBG_AFiNgrW1kAAAM
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+just joined, id 90445394-523c-41e6-8f2b-58933feac113 24, J6HblmvrELVWlsXjAAAT
+just joined, id 42064782-5875-4c70-8b5a-51e88d4275b6 24, J6HblmvrELVWlsXjAAAT
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+just joined, id 0c156d05-ba72-4bcf-821a-a8e6dd19a41c 22, zK8VY-GkzIhXSlSPAAAH
+just joined, id ca3c843b-d869-4e21-9449-3b375413cc9c 33, FSysAtx0yf3mvwcpAAAB
+consumer resume
+just joined, id 7dd98d3a-2f36-45c5-8ee0-6aec09a3f9b2 33, FSysAtx0yf3mvwcpAAAB
+socket id: " + cA8-XGhPmlo6mUmUAAAX, 기존 producer 수 6.5
+just joined, id 07909d99-59b9-47b1-9d61-2967ad4ce96c 22, zK8VY-GkzIhXSlSPAAAH
+consumer resume
+just joined, id a90e696c-8f61-4e5b-8a9f-96bd0a442c40 25, cA8-XGhPmlo6mUmUAAAX
+consumer resume
+just joined, id 473891ed-1797-4b48-a0e8-e0f4b8c07d8d 25, cA8-XGhPmlo6mUmUAAAX
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+just joined, id 3c730123-ddb4-42c3-955b-a8d369e21ba7 27, hv6fFjpzDGH3EZmTAAAV
+peer disconnected
+listening
+worker pid 11372
+socket id: " + BqGKOEm-_v_ZpyPoAAAB, 기존 producer 수 0
+socket id: " + C3R3y2usOx-_W8PJAAAD, 기존 producer 수 0
+just joined, id 661a63a6-b4e9-4f91-948c-8f6a67df52c7 24, BqGKOEm-_v_ZpyPoAAAB
+just joined, id 8134c0fe-a010-45a1-b6a8-3e23fc59ca43 24, BqGKOEm-_v_ZpyPoAAAB
+socket id: " + -GgvNlfD9GeDp4xFAAAF, 기존 producer 수 1
+socket id: " + ECPHomn3-bLZnoS_AAAI, 기존 producer 수 1
+just joined, id 78e935fb-640f-45ee-8973-a748f291d2e1 25, C3R3y2usOx-_W8PJAAAD
+socket id: " + jaFsY1dTdk0MhjgeAAAJ, 기존 producer 수 1.5
+just joined, id 758422fa-cb7b-4546-aee2-41f6baa4a650 25, C3R3y2usOx-_W8PJAAAD
+just joined, id e6e4aa3e-baf4-422f-ba8a-907ce96bfd17 24, -GgvNlfD9GeDp4xFAAAF
+just joined, id 95f780ae-bfb9-4a91-b9e4-18261a9b6375 24, -GgvNlfD9GeDp4xFAAAF
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + waKerWhxMJscC6EWAAAL, 기존 producer 수 3
+just joined, id ee210f69-d62b-49a2-876e-1bc1a50b437d 24, jaFsY1dTdk0MhjgeAAAJ
+consumer resume
+consumer resume
+just joined, id 982d0783-d405-466f-a76a-50a50edf4282 24, jaFsY1dTdk0MhjgeAAAJ
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + dAEnhGAAvon1yToGAAAP, 기존 producer 수 4
+socket id: " + 24IR4bcZPm0rPUurAAAQ, 기존 producer 수 4
+socket id: " + l5cSCM8auwk-oAUGAAAR, 기존 producer 수 4
+just joined, id c952a5f7-8cc1-406d-a16e-41047a906535 22, ECPHomn3-bLZnoS_AAAI
+just joined, id 71781a43-5ae8-42cc-b3cc-d10829f782c5 22, ECPHomn3-bLZnoS_AAAI
+socket id: " + u7WD-Q-Ek3bcrj9KAAAU, 기존 producer 수 5
+socket id: " + Df6f0JizuF50IXi0AAAV, 기존 producer 수 5
+just joined, id 566b231e-26e9-4cc6-b0e0-4b5f625e6399 27, u7WD-Q-Ek3bcrj9KAAAU
+just joined, id 755a3d6e-6b39-4472-9bef-e554c1e7c175 27, u7WD-Q-Ek3bcrj9KAAAU
+just joined, id 40ed874d-20e5-4d42-a1ee-6d907c601ba4 33, dAEnhGAAvon1yToGAAAP
+just joined, id 978e9973-603e-4637-935c-f26b0451df30 33, dAEnhGAAvon1yToGAAAP
+just joined, id 569d25e5-9e29-495e-a8d6-98464dcd26c3 22, Df6f0JizuF50IXi0AAAV
+just joined, id a6713038-41d5-44ef-a7c0-a465d0626ce6 22, Df6f0JizuF50IXi0AAAV
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+just joined, id 35dd3254-8821-45ac-beca-9d67eb92e2c4 25, 24IR4bcZPm0rPUurAAAQ
+consumer resume
+just joined, id c0f8dbf4-199b-4895-9799-e62cca7f31cc 25, 24IR4bcZPm0rPUurAAAQ
+consumer resume
+consumer resume
+consumer resume
+just joined, id f86cd4fe-04fd-4cdc-921e-96f8c4d632d5 28, l5cSCM8auwk-oAUGAAAR
+socket id: " + IJw3VdEZ1JRleYajAAAX, 기존 producer 수 9.5
+socket id: " + AMdSWxWs8XFYvsY8AAAa, 기존 producer 수 9.5
+socket id: " + HQmj_QclJdfM754IAAAb, 기존 producer 수 9.5
+just joined, id c1e2e6c3-1d02-4497-9eab-77ce02d07199 28, AMdSWxWs8XFYvsY8AAAa
+just joined, id 2dbfb65d-9a80-4dc9-94c2-f979ea917e10 28, AMdSWxWs8XFYvsY8AAAa
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+peer disconnected
+listening
+worker pid 11391
+socket id: " + uRafaGDdmOdMkjzDAAAB, 기존 producer 수 0
+socket id: " + iXdFEzo1wbTibRBpAAAD, 기존 producer 수 0
+just joined, id b017e178-1a69-4d33-b5a6-aee68e03763e 25, uRafaGDdmOdMkjzDAAAB
+just joined, id 3544dda0-4e18-4e02-bfb9-dbf1c38cbf5e 25, uRafaGDdmOdMkjzDAAAB
+socket id: " + iyqTNk21MZ7TQ488AAAF, 기존 producer 수 1
+socket id: " + 0wFUXQwNKz1k5D-EAAAH, 기존 producer 수 1
+just joined, id 925c8d2d-8391-4282-b2e6-2028bd67c0fe 27, iyqTNk21MZ7TQ488AAAF
+just joined, id 30c95a74-e053-4d2d-b855-a6450404005c 27, iyqTNk21MZ7TQ488AAAF
+socket id: " + 9FkGVwbRALqksd3xAAAJ, 기존 producer 수 2
+just joined, id bf3673b5-a89c-4270-a9cb-1c9abab420d7 33, iXdFEzo1wbTibRBpAAAD
+just joined, id 3b201294-02eb-4562-906a-aebc25761016 33, iXdFEzo1wbTibRBpAAAD
+just joined, id 53f19108-c548-4786-a9c9-8e2f7b1058e9 22, 0wFUXQwNKz1k5D-EAAAH
+just joined, id 849ce816-c8c9-4a94-ad83-11e2b371b5d2 22, 0wFUXQwNKz1k5D-EAAAH
+just joined, id f7b8e84f-1fd2-4766-a9a6-c7b391da3591 25, 9FkGVwbRALqksd3xAAAJ
+just joined, id a8c19fb3-7b44-422f-945e-7c62b7b809f4 25, 9FkGVwbRALqksd3xAAAJ
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + PVX6C2Pwav76WAahAAAL, 기존 producer 수 5
+just joined, id 0fdb2237-00c3-4c47-8454-4f66ea5b330b 24, PVX6C2Pwav76WAahAAAL
+just joined, id 39f52773-777b-4011-a7a4-1becdbe80923 24, PVX6C2Pwav76WAahAAAL
+socket id: " + 67UVEnwEwhtr9-1OAAAN, 기존 producer 수 6
+socket id: " + ZyKelU9KopTGq8kVAAAP, 기존 producer 수 6
+just joined, id 7d816c72-4c3d-4dcc-8beb-721463e8b34b 24, 67UVEnwEwhtr9-1OAAAN
+just joined, id 1d04c376-ebee-44ed-b89b-72a97bc97cd4 24, 67UVEnwEwhtr9-1OAAAN
+consumer resume
+consumer resume
+just joined, id 4d218197-24d0-4a8f-b61b-605c6f487506 22, ZyKelU9KopTGq8kVAAAP
+just joined, id 97c20b24-1a3f-4308-83a6-a56e5c7cb4c9 22, ZyKelU9KopTGq8kVAAAP
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + pb4kpOQcGfvMbNZrAAAR, 기존 producer 수 8
+just joined, id ab891ec1-3ac8-4d7f-979f-7724c95a1149 28, pb4kpOQcGfvMbNZrAAAR
+just joined, id f6f24fcf-9fba-4ce6-9887-d4c86ee4dd0d 28, pb4kpOQcGfvMbNZrAAAR
+socket id: " + -Y-ipBzuOcxhaGu2AAAT, 기존 producer 수 9
+peer disconnected
+socket id: " + CQqBqlbgD-QDKpp8AAAV, 기존 producer 수 8
+just joined, id c1525bd3-1ea3-4c1b-8c20-70925ed1e9c0 33, CQqBqlbgD-QDKpp8AAAV
+just joined, id a0227234-ba58-4cca-b5c9-6bfa3ccce787 33, CQqBqlbgD-QDKpp8AAAV
+peer disconnected
+socket id: " + 3q_zqYFbPZkm36FSAAAX, 기존 producer 수 8
+just joined, id b82b7902-756d-45c1-a367-a59fab2ef413 25, 3q_zqYFbPZkm36FSAAAX
+just joined, id df3333e1-6c66-480a-a571-410dfcbd19f3 25, 3q_zqYFbPZkm36FSAAAX
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+socket id: " + 3-IUv0dKO0c5zLKkAAAZ, 기존 producer 수 8
+socket id: " + _BIYGrRHkrTIjziZAAAb, 기존 producer 수 8
+peer disconnected
+listening
+worker pid 11409
+socket id: " + AT8s47YdUJ504PiEAAAB, 기존 producer 수 0
+just joined, id f4912e67-c3de-4da0-a31b-1faf143dae8a 27, AT8s47YdUJ504PiEAAAB
+just joined, id 4bd9b23c-a220-4c10-b632-91be9a646191 27, AT8s47YdUJ504PiEAAAB
+socket id: " + nPI9M2r9dgCAUowLAAAG, 기존 producer 수 1
+socket id: " + Mb6_a-PWjodzv_PKAAAH, 기존 producer 수 1
+socket id: " + e_5KoAKGvYZbfXQsAAAI, 기존 producer 수 1
+socket id: " + l87Od3MiXj16BBKuAAAK, 기존 producer 수 1
+just joined, id cc1c22a5-c163-4bd2-8d99-38385bbf63f5 33, e_5KoAKGvYZbfXQsAAAI
+socket id: " + _f_TlYYqCvP9Ijy1AAAL, 기존 producer 수 1.5
+just joined, id 926424c5-3de5-47a9-89fc-56969f6de9be 33, e_5KoAKGvYZbfXQsAAAI
+socket id: " + tZNdsPQ0xpb2WE-4AAAN, 기존 producer 수 2
+just joined, id 1b05d5ac-601c-4dff-b610-be3422c25287 24, _f_TlYYqCvP9Ijy1AAAL
+just joined, id b7f7c9d1-76be-4eff-abb1-12eacb31eb85 25, Mb6_a-PWjodzv_PKAAAH
+just joined, id bc35004c-7a2c-4b74-85e5-e00c2148be67 24, _f_TlYYqCvP9Ijy1AAAL
+just joined, id f831692c-436f-4b3a-8d3f-859feba2b826 25, Mb6_a-PWjodzv_PKAAAH
+socket id: " + ft75cWZwKXj35tbMAAAP, 기존 producer 수 4
+just joined, id 0d808e76-7c6a-4ab8-bd84-3ce9b924636d 25, tZNdsPQ0xpb2WE-4AAAN
+just joined, id 874fc313-c0db-40d4-b8d6-8ebd7a6f03a2 25, tZNdsPQ0xpb2WE-4AAAN
+consumer resume
+consumer resume
+just joined, id 86e97633-4657-402b-91b4-9fc731989519 22, l87Od3MiXj16BBKuAAAK
+just joined, id 5857b205-389a-461a-954b-dc26f26bfc1f 33, nPI9M2r9dgCAUowLAAAG
+just joined, id f189dd43-4803-482e-ab77-da0b8254e69a 33, nPI9M2r9dgCAUowLAAAG
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+just joined, id a85a5047-1905-4d51-99a8-5cd3c87e12df 22, l87Od3MiXj16BBKuAAAK
+consumer resume
+consumer resume
+socket id: " + D3G4ZEuU2Q76LZDQAAAR, 기존 producer 수 7
+just joined, id 902cfa74-e389-4851-9682-d8f6af9176e2 24, D3G4ZEuU2Q76LZDQAAAR
+just joined, id 211c17b9-19d6-4fde-a467-065eb0e2efe8 24, D3G4ZEuU2Q76LZDQAAAR
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + DZnBR2TyMsTATK8KAAAT, 기존 producer 수 8
+just joined, id 122982ac-d368-49da-913d-d225e514f189 22, DZnBR2TyMsTATK8KAAAT
+just joined, id 90f6e7e6-8538-4d9c-8dba-a2aa8d7c5bdc 22, DZnBR2TyMsTATK8KAAAT
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+socket id: " + V_BkSybubmk2XrfoAAAV, 기존 producer 수 8
+just joined, id 36a52002-8751-4b24-939a-2914688060d7 25, V_BkSybubmk2XrfoAAAV
+just joined, id 9a92a8fb-1d05-4f47-9af1-c6a5df4414bd 25, V_BkSybubmk2XrfoAAAV
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + i7HqaNarzWg9LuXcAAAX, 기존 producer 수 9
+just joined, id 19d97e86-c391-4b2a-8e2b-60dda6788f7a 28, i7HqaNarzWg9LuXcAAAX
+just joined, id f22217aa-c137-49ea-b7a0-d408f40e7d98 28, i7HqaNarzWg9LuXcAAAX
+socket id: " + RawS9RooeT3jazVzAAAZ, 기존 producer 수 10
+just joined, id c0c1b98e-d4c9-43f2-a97d-768fad940c44 28, RawS9RooeT3jazVzAAAZ
+just joined, id 1e90d4eb-39cc-43f6-bdb1-5734f7ef2596 28, RawS9RooeT3jazVzAAAZ
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + 35XOgg8fyFKVOQxbAAAb, 기존 producer 수 11
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+listening
+worker pid 11433
+socket id: " + X6J5HeD8W7-4uNytAAAB, 기존 producer 수 0
+just joined, id 08e0ccb9-354b-4f36-9e56-b0c8cf41ca49 22, X6J5HeD8W7-4uNytAAAB
+socket id: " + IrYMJvtyCigEK1NxAAAE, 기존 producer 수 0.5
+just joined, id 88d52a99-c389-46b6-8abc-5135141ce07a 22, X6J5HeD8W7-4uNytAAAB
+socket id: " + 10wjCkK5GuPKBrMeAAAG, 기존 producer 수 1
+just joined, id e47f6915-8551-4245-a776-21a909b3b66f 24, IrYMJvtyCigEK1NxAAAE
+socket id: " + hqbvfF3YRwqZKVk4AAAH, 기존 producer 수 1.5
+just joined, id c57ac986-4937-4d1d-bd6b-28b564f3ffdb 24, IrYMJvtyCigEK1NxAAAE
+socket id: " + iIqrxAZxUZ65liUfAAAL, 기존 producer 수 2
+socket id: " + UzVGuDccaPwZNBQqAAAN, 기존 producer 수 2
+just joined, id 3cee61b1-f1a0-4a69-ac3b-119b20da5801 25, 10wjCkK5GuPKBrMeAAAG
+just joined, id 43d0e23d-0e6d-4594-89eb-1ec621f97f19 25, 10wjCkK5GuPKBrMeAAAG
+socket id: " + TyqPgef7RPaCT3lMAAAO, 기존 producer 수 3
+socket id: " + SCOtv41QEoeITIEYAAAP, 기존 producer 수 3
+socket id: " + Hbo-YCwygMt2Y1baAAAS, 기존 producer 수 3
+socket id: " + Fk5XpU72cLxflu8aAAAT, 기존 producer 수 3
+just joined, id e4af3a18-717e-4280-8070-fa212c2cdfd0 27, Fk5XpU72cLxflu8aAAAT
+just joined, id 3c0fcb47-85b6-4835-af5b-a16fba44faa4 27, Fk5XpU72cLxflu8aAAAT
+just joined, id 57031026-e2ab-47b6-b270-b32401c6e70a 33, TyqPgef7RPaCT3lMAAAO
+just joined, id f134228f-0518-4989-b4cf-54b0df71a6d1 24, Hbo-YCwygMt2Y1baAAAS
+just joined, id 0062dfbe-afb0-41d8-ae47-4ee7550ebb60 33, TyqPgef7RPaCT3lMAAAO
+just joined, id 0c778919-0f92-48c0-b808-525c4ba1ba44 33, SCOtv41QEoeITIEYAAAP
+just joined, id df67b8e2-9726-4801-8d3e-0372a42bb966 24, Hbo-YCwygMt2Y1baAAAS
+just joined, id b1a2bd5f-bd01-4cbe-a8b1-6352bda97ac7 33, SCOtv41QEoeITIEYAAAP
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+just joined, id d5a230f9-1d7f-4903-b593-814a655336cc 28, hqbvfF3YRwqZKVk4AAAH
+consumer resume
+socket id: " + h-mxODUkwB_m2vTJAAAV, 기존 producer 수 7.5
+just joined, id 32c96083-62c0-4350-a658-db5b0882b3c7 28, hqbvfF3YRwqZKVk4AAAH
+just joined, id b79f96fc-c71f-4c8e-b0e5-3af1f0577d03 28, h-mxODUkwB_m2vTJAAAV
+just joined, id 1fcb326e-6140-4210-aa06-f7d73f3f5a15 28, h-mxODUkwB_m2vTJAAAV
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + 8A7rYScM59Sm-y5cAAAX, 기존 producer 수 9
+peer disconnected
+socket id: " + zUNg3B0QryoEFfHMAAAZ, 기존 producer 수 8
+just joined, id 7eb009e1-dd40-4a19-a79d-763596db1637 25, 8A7rYScM59Sm-y5cAAAX
+consumer resume
+just joined, id 869206b2-549b-401c-995d-519d7735210f 25, 8A7rYScM59Sm-y5cAAAX
+consumer resume
+consumer resume
+consumer resume
+just joined, id 1ca5dc9f-c3ee-48fd-aa36-788849ea2012 33, zUNg3B0QryoEFfHMAAAZ
+just joined, id 67183147-2aae-42f3-b9b6-32ef461a8066 33, zUNg3B0QryoEFfHMAAAZ
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+socket id: " + WE5huDmP5XQxn5hmAAAb, 기존 producer 수 9
+just joined, id a1c4ffa6-b033-4e49-b78c-6b241c12222c 28, WE5huDmP5XQxn5hmAAAb
+just joined, id c6cca89c-d695-4cb3-964d-f9489d22fa77 28, WE5huDmP5XQxn5hmAAAb
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+listening
+worker pid 11457
+socket id: " + edeG_kpGk9X2SlRPAAAB, 기존 producer 수 0
+socket id: " + tlWXtyn1IjWLWOr-AAAD, 기존 producer 수 0
+just joined, id 777ebe86-350b-453d-98a5-69f352dda451 33, edeG_kpGk9X2SlRPAAAB
+just joined, id 6306e3ec-23c0-434d-b4b3-712cca41714d 33, edeG_kpGk9X2SlRPAAAB
+just joined, id d3265302-7eb1-48d3-b7bb-d61869c2e4ca 33, tlWXtyn1IjWLWOr-AAAD
+just joined, id 518e20c4-d780-4df4-9217-8c08ebebf553 33, tlWXtyn1IjWLWOr-AAAD
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + muKWeo-pT-7g_ZKgAAAF, 기존 producer 수 2
+just joined, id 7163545a-6d6e-4a14-8d9d-fb36932f86cc 33, muKWeo-pT-7g_ZKgAAAF
+just joined, id 495d57d4-3a47-4dfa-9a04-412ecfecc1c4 33, muKWeo-pT-7g_ZKgAAAF
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+socket id: " + Gp7qlWdBwiSVmTdoAAAH, 기존 producer 수 3
+just joined, id 72ed759f-e9f7-4a93-bad2-51dbd6347394 28, Gp7qlWdBwiSVmTdoAAAH
+just joined, id 6724afb9-0bfc-4f23-9496-99fdd552b29f 28, Gp7qlWdBwiSVmTdoAAAH
+socket id: " + Xqxh5SJOsE8STGRVAAAJ, 기존 producer 수 4
+just joined, id 1c5683d2-07eb-4daf-8ff1-5319eaf1196e 28, Xqxh5SJOsE8STGRVAAAJ
+just joined, id 210363ad-281f-4ca0-8be8-3475d55198a6 28, Xqxh5SJOsE8STGRVAAAJ
+consumer resume
+consumer resume
+consumer resume
+consumer resume
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+producer of consumer closed
+producer of consumer closed
+peer disconnected
+socket id: " + 8Vh05pIdvgpE6Zc3AAAL, 기존 producer 수 0
+just joined, id e6507e16-4ccf-42a7-821d-5876796584a2 33, 8Vh05pIdvgpE6Zc3AAAL
+just joined, id 2f093a96-cf6b-4637-a4db-7b5f83a6ef53 33, 8Vh05pIdvgpE6Zc3AAAL
+socket id: " + pil_AcyZKV1tBtMVAAAN, 기존 producer 수 1
+just joined, id 8c5f7991-d0d4-460a-8543-be22bf92ab7b 28, pil_AcyZKV1tBtMVAAAN
+just joined, id 2a9534c3-783f-4f79-a745-3f86a64a5f71 28, pil_AcyZKV1tBtMVAAAN
+peer disconnected
+socket id: " + Nq8iPlWxNsdwLKPIAAAP, 기존 producer 수 1
+just joined, id 5b768be5-bb8d-4cfa-aefa-5c77d2ef5440 28, Nq8iPlWxNsdwLKPIAAAP
+just joined, id 097c6e11-e7c5-44e3-8af6-a371c6ee8617 28, Nq8iPlWxNsdwLKPIAAAP
+peer disconnected
